@@ -1022,6 +1022,9 @@ a.addCar {
     text-indent: 17px;
     line-height: 25px;
 }
+.des_content .dd{
+    padding-left: 75px;
+}
 .des_money{
     font-size: 18px;
     color: #d70000;
@@ -1076,14 +1079,57 @@ a.addCar {
     padding: 3px 7px;
     margin-bottom: 8px;
 }
-
-
-
-
-
-
-
-
-
+.des_content .des_select_more{
+    line-height: 55px;
+}
+/*数量*/
+.des_number{
+    border: 1px solid #b2b2b2;
+    height: 32px;
+    width: 82px;
+    float: left;
+}
+.des_number div{
+    height: 100%;
+    float: left;
+}
+.reduction,.plus{
+    width: 15px;
+    background: url(../images/bg-add.png) left top no-repeat;
+    line-height: 32px;
+    text-align: center;
+    color: #000;
+}
+.reduction{
+    border-right: 1px solid #ccc;
+}
+.plus{
+    border-left: 1px solid #ccc;
+}
+.des_input{
+    width: 42px;
+    background: url(../images/bg-input.png) left top no-repeat;
+    padding: 0 4px;
+}
+.des_input input{
+    width: 100%;
+    height: 100%;
+    line-height: 32px\9;
+    text-align: center;
+}
+.xg{
+    line-height: 32px;
+    float: left;
+    padding-left: 10px;
+    color: #656565;
+}
+.xg em{
+    color: #fb7700;
+    font-style: normal;
+    font-weight: bold;
+}
+.des_content .des_num{
+    line-height: 32px;
+}
 
 
