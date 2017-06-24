@@ -1386,7 +1386,7 @@ a.addCar {
     position: relative;
 }
 .review_sort{
-    
+    padding: 5px 5px 0 0;
 }
 .review_sort a{
     display: inline-block;
@@ -1398,12 +1398,148 @@ a.addCar {
     background-size: 15px
 }
 
+.review_list{
+    padding-top: 18px;
+    margin-bottom: 10px;
+}
 
+.review_userHead{
+    width: 170px;
+}
+.review_user{
+    width: 60px;
+    text-align: center;
+    margin-left: 40px;
+}
+.review_user img{
+    width: 60px;
+    height: 60px;
+    display: block;
+}
+.review_user p{
+    line-height: 20px;
+}
 
-
-
-
-
+.review_cont{
+    padding-left: 170px;
+}
+.starBox .stars{
+    margin-top: 1px;
+}
+.stars_text{
+    font-weight: bold;
+    padding-left: 10px;
+}
+.review_t{
+    height: 24px;
+    padding-top: 5px;
+}
+.review_cont p{
+    line-height: 30px;
+}
+.pageBox{
+    padding-right: 10px;
+}
+.pageBox .page a{
+    padding: 0 7px;
+}
+/*购物车*/
+.stepBox{
+    width: 396px;
+    padding-top: 26px;
+}
+.step{
+    background: url(../images/list_next.png) left top no-repeat;
+    height: 19px;
+}
+.step_text{
+    color: #Fff;
+    font-size: 12px;
+    line-height: 20px;
+}
+.step_text li{
+    float: left;
+}
+.s01,.s03{
+    width: 30%;
+}
+.s02{
+    width: 40%;
+    text-align: center;
+}
+.s03{
+    text-align: center;
+}
+.step_text .active{
+    color: #f3e402;
+    font-weight: bold;
+}
+.shoppingCart{
+    padding-top: 10px;
+}
+.shopping_item{
+    border: 1px solid #ccc;
+}
+.shopping_tit{
+    height: 31px;
+    background: url(../images/bg_title.png) left top repeat-x;
+    color: #444;
+    font: 16px/31px "Microsoft YaHei","微软雅黑";
+    text-indent: 12px;
+}
+.padding_shop{
+    padding: 25px 30px;
+}
+.shopping_list_text{
+    float: left;
+    width: 76px;
+    line-height: 24px;
+}
+.shopping_list li{
+    height: 24px;
+    margin-bottom: 10px;
+}
+.shopping_list_text em{
+    color: #ff0000;
+    font-style: normal;
+    margin-right: 5px;
+}
+.input{
+    height:22px;
+    border: 1px solid #ccc;
+    padding: 0 6px;
+    width: 110px;
+}
+.input_b{
+    width: 390px;
+}
+.input_s{
+    width: 65px;
+}
+.input_s2{
+    width: 85px;
+}
+.jian{
+    padding: 0 3px;
+}
+.affirm{
+    width: 114px;
+    height: 28px;
+    border: 1px solid #3784ed;
+    background: url(../images/bg_btn_blue.png) left top repeat-x;
+    color: #fff;
+}
+.wechatIcon{
+    width: 18px;
+}
+.radio{
+    position:relative;
+    top: 3px;
+    margin-right: 4px;
+}
+.descr{
+    padding-left: 10px;
+}
 
 
 
